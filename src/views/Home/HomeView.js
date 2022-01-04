@@ -1,10 +1,18 @@
 import { Container } from "./HomeStyle";
+import ImgSlider from "./components/ImgSlider/ImgSlider";
+import Viewers from "./components/Viewers/Viewers";
+import Recommends from "./components/Recommends/Recommends";
+import Header from "../../components/layout/Header/Header";
 
 const Home = () => {
   return (
     <div>
+      <Header/>
       <Container>
-        <h1>Home</h1>
+        <ImgSlider/>
+        <Viewers/>
+        <Recommends/>
+        
       </Container>
     </div>
   );
