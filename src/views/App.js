@@ -1,11 +1,12 @@
-
-
-function App() {
-  return (
-    <div >
-      <h1>Hello World</h1>
-    </div>
-  );
+import React from 'react'
+import Home from './Home/HomeView'
+export default class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Home />
+      </div>
+    )
+  }
 }
 
-export default App;
