@@ -1,12 +1,14 @@
 import React from 'react'
-import Home from './Home/HomeView'
+import Router from '../routes'
+
+
 
 export default class App extends React.Component {
   render() {
     return (
-      <div>
-        <Home />
-      </div>
+      <>
+        <Router/>
+      </>
     )
   }
 }
